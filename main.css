@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ==== menu - one start ==== */
+
+.menu-one-header {
+    padding: 0%;
+    background: #000;
+}
+
+.menu-one-ul {
+    margin: auto !important;
+    width: fit-content;
+    color: gray;
+    padding: 0;
+}
+
+.menu-one-ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 20px;
+}
+
+.menu-one-ul li a {
+    text-decoration: none;
+    color: gray;
+    font-weight: 500;
+}
+
+/* ==== menu - one End ==== */
+
+/* ==== menu - two start ====  */
+
+.menu-two-c-fluid {
+    padding: 0% !important;
+    background: #393535;
+    ;
+}
+
+.menu-two-rw {
+    padding: 1%;
+    /* background: red; */
+    width: 100%;
+    margin: auto !important;
+}
+
+.logo-clm {
+    /* background: green; */
+    padding: 0% !important;
+}
+
+.logo-clm img {
+    width: 50%;
+}
+
+.menu-two-search {
+    width: 38% !important;
+    margin-right: 5%;
+}
+
+.search-barclm {
+    /* background: pink; */
+    justify-content: end;
+}
+
+.brdsgrptxt {
+    border-top-left-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+    background: #e600ff !important;
+}
+
+.searbaritpmone {
+    border-top-right-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+}
+
+/* ==== menu - two End ====  */
+
+/* ==== btn tlg start ====  */
+
+.btn-tlglr {
+    padding: 0%;
+    /* background: brown; */
+    display: flex;
+    justify-content: center;
+}
+
+.tb-tgl {
+    border-bottom: none !important;
+    /* background: black; */
+    width: fit-content;
+    gap: 10px;
+}
+
+.brds-rds {
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+    background: #e8e8e8 !important;
+    color: black !important;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #ff6500 !important;
+    border: none !important;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+    border: none !important;
+}
+
+/* ==== btn -tlg End ====  */
+
+/* ==== more services start ====  */
+
+.services-cntrnr {
+    padding: 0% !important;
+    background: #ff6500;
+}
+
+.services-rw {
+    padding: 0%;
+    /* background: mediumaquamarine; */
+    width: 100%;
+    margin: auto !important;
+}
+
+.clm-srvcs-one {
+    padding: 2%;
+    /* background: forestgreen; */
+}
+
+.clm-srvcs-two {
+    padding: 2%;
+    /* background: mediumslateblue; */
+}
+
+.more-servic-contant {
+    background: linear-gradient(to bottom, #33ccff3b 0%, #ff6500 150%), url(th.jpeg) no-repeat;
+    background-size: cover;
+    padding: 5%;
+    border-radius: 15px;
+    box-shadow: 0px -5px 6px 2px black;
+}
+
+.head-services {
+    color: #27ff00;
+}
+
+.servic-pera {
+    color: white;
+    font-family: sans-serif;
+}
+
+.head-srvis-sec {
+    color: white;
+}
+
+.servismn-dv {
+    padding: 0% 5% 7%;
+    /* background: red; */
+}
+
+.pers-servis-sec {
+    color: #c3c2c2;
+    font-size: 18px;
+}
+
+/* ==== more services end ====  */
+
+/* ==== contant section start ==== */
+
+.contant-section-mn-cntiner {
+    padding: 0% !important;
+    background: #e8e8e8;
+}
+
+.cnctsec-rw {
+    /* background: red; */
+    padding: 0%;
+    width: 100%;
+    margin: auto !important;
+}
+
+.clm-cnct-ones {
+    /* background: green; */
+    padding: 2%;
+}
+
+.clm-cnct-twos {
+    /* background: pink; */
+    padding: 2%;
+}
+
+.main-cnctner-one {
+    /* background: magenta; */
+    padding: 1%;
+}
+
+.main-cnctner-one p {
+    font-family: sans-serif;
+    font-size: 17px;
+}
+
+.main-cnctner-one h4 {
+    font-family: sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+.hed-sec-sec {
+    font-family: sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.head-bottom-line {
+    margin: 0;
+    margin-bottom: 4%;
+    height: 3px !important;
+}
+
+.clm-sec-cnctnrmn {
+    background: #ff6500;
+    padding: 1%;
+}
+
+.head-clm-sec-cnct {}
+
+/* ==== contant section End ==== */
+
+/* ==== footer section start ====   */
+
+.ftr-mn {
+    padding: 1%;
+    background: #393535;
+    text-align: center;
+}
+
+.menu-frt-ul {
+    margin: auto !important;
+    width: fit-content;
+    color: gray;
+    padding: 0;
+    font-weight: 600;
+}
+
+.menu-frt-ul li a {
+    text-decoration: none;
+    color: gray;
+}
+
+.menu-frt-ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 20px;}
+
+.ftr-pera {
+    color: #a4a4a4;
+    font-size: 18px;
+    font-family: sans-serif; 
+}
+
+.secftr {
+    font-family: sans-serif;
+    color: #716b6b;
+    font-size: 17px;
+}
+
+/* ==== footer sectionm End ==== */
+
+/* ==== Responsive ====  */
+
+@media only screen and (max-width: 767px) {
+
+    .menu-one-ul li {
+        padding: 8px 15px;
+    }
+
+    .logo-clm {
+        width: 30% !important;
+    }
+
+    .search-barclm {
+        width: 70% !important;
+    }
+
+    .logo-clm img {
+        width: 70%;
+    }
+
+    .menu-two-search {
+        width: 100% !important;
+        margin-right: 0;
+    }
+
+    .services-rw {
+        flex-direction: column-reverse;
+    }
+
+    .nav-link {
+        padding: 7px 5px !important;
+    }
+
+    .btn-tlglr {
+        margin-top: 4%;
+    }
+
+    .menu-frt-ul li {
+        padding: 8px 5px;
+    }
+
+}
